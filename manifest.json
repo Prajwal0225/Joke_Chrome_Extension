@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Joke Chrome Extension",
+    "version": "1.0.0",
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "logo.png"
+    },
+    "icons": {
+        "128": "logo.png"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
